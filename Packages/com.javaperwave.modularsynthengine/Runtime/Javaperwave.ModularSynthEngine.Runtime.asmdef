@@ -1,0 +1,14 @@
+{
+    "name": "Javaperwave.ModularSynthEngine.Runtime",
+    "rootNamespace": "Javaperwave.ModularSynthEngine",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

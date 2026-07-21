@@ -1,0 +1,17 @@
+{
+  "name": "com.javaperwave.modularsynthengine",
+  "version": "1.0.0",
+  "displayName": "Modular Synth Engine",
+  "description": "Real-time modular synthesizer engine for Unity, simulating Eurorack-style analog synthesis via a directed audio signal graph.",
+  "unity": "6000.3",
+  "unityRelease": "6f1",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "author": {
+    "name": "Javier Balenzategui Garcia",
+    "url": "https://github.com/Javaperwave"
+  },
+  "keywords": ["audio", "synthesizer", "modular", "eurorack", "dsp"],
+  "documentationUrl": "https://github.com/Javaperwave/ModularSynthEngine/blob/main/Packages/com.javaperwave.modularsynthengine/README.md",
+  "changelogUrl": "https://github.com/Javaperwave/ModularSynthEngine/blob/main/Packages/com.javaperwave.modularsynthengine/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Javaperwave/ModularSynthEngine/blob/main/Packages/com.javaperwave.modularsynthengine/LICENSE.md"
+}
