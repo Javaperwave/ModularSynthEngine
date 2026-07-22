@@ -40,11 +40,10 @@ The project can be used in three ways:
 ## Module Catalog
 
 <table>
-<tr><td>Oscillator (VCO)</td><td>Reverb</td><td>Step Sequencer</td><td>Clock</td></tr>
-<tr><td>Amplifier (VCA)</td><td>Ring Modulation</td><td>Pitch Quantizer</td><td>Oscilloscope</td></tr>
-<tr><td>Filter (VCF)</td><td>LFO</td><td>MIDI to CV</td><td></td></tr>
-<tr><td>Distortion</td><td>Envelope</td><td>Mixer</td><td></td></tr>
-<tr><td>Delay</td><td>Sample &amp; Hold</td><td>Attenuverter</td><td></td></tr>
+<tr><td>Oscillator (VCO)</td><td>Delay</td><td>Envelope</td><td>MIDI to CV</td><td>Oscilloscope</td></tr>
+<tr><td>Amplifier (VCA)</td><td>Reverb</td><td>Sample &amp; Hold</td><td>Mixer</td><td></td></tr>
+<tr><td>Filter (VCF)</td><td>Ring Modulation</td><td>Step Sequencer</td><td>Attenuverter</td><td></td></tr>
+<tr><td>Distortion</td><td>LFO</td><td>Pitch Quantizer</td><td>Clock</td><td></td></tr>
 </table>
 
 ## Architecture (Summary)
@@ -85,8 +84,8 @@ Minimal example — create an Oscillator and connect it to the master output:
 
 ```csharp
 var master = Synthesizer.Instance.GetMasterOut();
-var osc = (Oscilator)ModuleFactory.Instance.CreateModule("Oscillator");
-osc.waveform = Oscilator.WaveformType.SIN;
+var osc = (Oscillator)ModuleFactory.Instance.CreateModule("Oscillator");
+osc.waveform = Oscillator.WaveformType.SIN;
 osc.coarse = 12;
 PatchManager.Instance.Connect(
     osc.moduleId, "audio_out", master.moduleId, "audio_in");
