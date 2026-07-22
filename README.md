@@ -10,14 +10,16 @@ Eurorack-style modular audio synthesis engine for Unity.
 
 <p align="center">
   <img src="docs/media/screenshot-1.png" width="100%" alt="Patch editor UI" />
+  <br>
+  <sub><i>Simple subtractive synthesis patch</i></sub>
 </p>
 
 ## Demo
 
 Two short clips demonstrating the engine by recreating well-known themes — shared for technical demonstration only, not as a commercial performance:
 
-- **Recreation of "Confusion" (Pump Panel Reconstruction Mix) by New Order, as used in *Blade* (1998):** [VIDEO-URL-BLADE](VIDEO-URL-BLADE)
-- **Recreation of the *Stranger Things* intro theme:** [VIDEO-URL-STRANGER-THINGS](VIDEO-URL-STRANGER-THINGS)
+- [**Recreation of "Confusion" (Pump Panel Reconstruction Mix) by New Order, as used in *Blade* (1998)**](VIDEO-URL-BLADE)
+- [**Recreation of the *Stranger Things* intro theme**](VIDEO-URL-STRANGER-THINGS)
 
 These are unofficial, non-commercial, non-monetized recreations built entirely with this engine's modules, made to showcase its sound-design capabilities. No audio or video from the original recordings is included in this repository. All rights to the original compositions belong to their respective composers and rights holders — "Confusion" to New Order / Factory Records, and the *Stranger Things* theme to Kyle Dixon & Michael Stein / Netflix.
 
@@ -37,35 +39,17 @@ The project can be used in three ways:
 
 ## Module Catalog
 
-<table>
-<tr>
-<td valign="top">
-
-- Oscillator (VCO)
-- Amplifier (VCA)
-- Filter (VCF)
-- Distortion
-- Delay
-- Reverb
-- Ring Modulation
-- LFO
-- Envelope
-
-</td>
-<td valign="top">
-
-- Sample & Hold
-- Step Sequencer
-- Pitch Quantizer
-- MIDI to CV
-- Mixer
-- Attenuverter
-- Clock
-- Oscilloscope
-
-</td>
-</tr>
-</table>
+| | |
+|---|---|
+| Oscillator (VCO) | Sample & Hold |
+| Amplifier (VCA) | Step Sequencer |
+| Filter (VCF) | Pitch Quantizer |
+| Distortion | MIDI to CV |
+| Delay | Mixer |
+| Reverb | Attenuverter |
+| Ring Modulation | Clock |
+| LFO | Oscilloscope |
+| Envelope | |
 
 ## Architecture (Summary)
 
