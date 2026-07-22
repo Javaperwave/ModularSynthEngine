@@ -6,9 +6,24 @@ Eurorack-style modular audio synthesis engine for Unity.
 
 **Project page:** [PORTFOLIO-URL]/modular-synth-engine *(portfolio site coming soon)*
 
+## Screenshot
+
+<p align="center">
+  <img src="docs/media/screenshot-1.png" width="100%" alt="Patch editor UI" />
+</p>
+
+## Demo
+
+Two short clips demonstrating the engine by recreating well-known themes — shared for technical demonstration only, not as a commercial performance:
+
+- **Recreation of "Confusion" (Pump Panel Reconstruction Mix) by New Order, as used in *Blade* (1998):** [VIDEO-URL-BLADE](VIDEO-URL-BLADE)
+- **Recreation of the *Stranger Things* intro theme:** [VIDEO-URL-STRANGER-THINGS](VIDEO-URL-STRANGER-THINGS)
+
+These are unofficial, non-commercial, non-monetized recreations built entirely with this engine's modules, made to showcase its sound-design capabilities. No audio or video from the original recordings is included in this repository. All rights to the original compositions belong to their respective composers and rights holders — "Confusion" to New Order / Factory Records, and the *Stranger Things* theme to Kyle Dixon & Michael Stein / Netflix.
+
 ## About this file
 
-The PDF is the authoritative technical documentation — architecture diagrams, complete module specifications, the full test plan and results, related work, and cost analysis. This file only covers what's needed to open the project, understand its structure, and start using it; it does not repeat the report's content, though the sections below are drawn directly from it.
+The full technical report — architecture diagrams, complete module specifications, the full test plan and results, related work, and cost analysis — is attached as a PDF to the [v1.0.0 release](https://github.com/Javaperwave/ModularSynthEngine/releases/tag/v1.0.0). This file only covers what's needed to open the project, understand its structure, and start using it; it does not repeat the report's content, though the sections below are drawn directly from it.
 
 ## Overview
 
@@ -22,6 +37,10 @@ The project can be used in three ways:
 
 ## Module Catalog
 
+<table>
+<tr>
+<td valign="top">
+
 - Oscillator (VCO)
 - Amplifier (VCA)
 - Filter (VCF)
@@ -31,6 +50,10 @@ The project can be used in three ways:
 - Ring Modulation
 - LFO
 - Envelope
+
+</td>
+<td valign="top">
+
 - Sample & Hold
 - Step Sequencer
 - Pitch Quantizer
@@ -40,9 +63,13 @@ The project can be used in three ways:
 - Clock
 - Oscilloscope
 
+</td>
+</tr>
+</table>
+
 ## Architecture (Summary)
 
-Full diagrams and rationale: report, chapter 2.
+Full diagrams and rationale: [report](https://github.com/Javaperwave/ModularSynthEngine/releases/tag/v1.0.0), chapter 2.
 
 Core components:
 
@@ -64,7 +91,7 @@ Signal levels follow Eurorack-style conventions (`CVStandard`):
 
 ## Using the Engine as a Standalone Library
 
-Full API reference: report, appendix C.
+Full API reference: [report](https://github.com/Javaperwave/ModularSynthEngine/releases/tag/v1.0.0), appendix C.
 
 To embed the engine in your own Unity project, import it and add these components to a `GameObject` with an `AudioSource`:
 
