@@ -39,17 +39,13 @@ The project can be used in three ways:
 
 ## Module Catalog
 
-| | |
-|---|---|
-| Oscillator (VCO) | Sample & Hold |
-| Amplifier (VCA) | Step Sequencer |
-| Filter (VCF) | Pitch Quantizer |
-| Distortion | MIDI to CV |
-| Delay | Mixer |
-| Reverb | Attenuverter |
-| Ring Modulation | Clock |
-| LFO | Oscilloscope |
-| Envelope | |
+<table>
+<tr><td>Oscillator (VCO)</td><td>Reverb</td><td>Step Sequencer</td><td>Clock</td></tr>
+<tr><td>Amplifier (VCA)</td><td>Ring Modulation</td><td>Pitch Quantizer</td><td>Oscilloscope</td></tr>
+<tr><td>Filter (VCF)</td><td>LFO</td><td>MIDI to CV</td><td></td></tr>
+<tr><td>Distortion</td><td>Envelope</td><td>Mixer</td><td></td></tr>
+<tr><td>Delay</td><td>Sample &amp; Hold</td><td>Attenuverter</td><td></td></tr>
+</table>
 
 ## Architecture (Summary)
 
