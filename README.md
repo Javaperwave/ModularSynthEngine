@@ -18,8 +18,8 @@ Eurorack-style modular audio synthesis engine for Unity.
 
 Two short clips demonstrating the engine by recreating well-known themes — shared for technical demonstration only, not as a commercial performance:
 
-- [**Recreation of "Confusion" (Pump Panel Reconstruction Mix) by New Order, as used in *Blade* (1998)**](VIDEO-URL-BLADE)
-- [**Recreation of the *Stranger Things* intro theme**](VIDEO-URL-STRANGER-THINGS)
+- [**Recreation of "Confusion" (Pump Panel Reconstruction Mix) by New Order, as used in *Blade* (1998)**](https://www.youtube.com/watch?v=Czyla-cnKiI)
+- [**Recreation of the *Stranger Things* intro theme**](https://www.youtube.com/watch?v=G7vaQtLlQDM)
 
 These are unofficial, non-commercial, non-monetized recreations built entirely with this engine's modules, made to showcase its sound-design capabilities. No audio or video from the original recordings is included in this repository. All rights to the original compositions belong to their respective composers and rights holders — "Confusion" to New Order / Factory Records, and the *Stranger Things* theme to Kyle Dixon & Michael Stein / Netflix.
 
