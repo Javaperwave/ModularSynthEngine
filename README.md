@@ -4,7 +4,7 @@ Eurorack-style modular audio synthesis engine for Unity.
 
 **Version:** 1.0
 
-**Project page:** [PORTFOLIO-URL]/modular-synth-engine *(portfolio site coming soon)*
+**Project page:** [balenzategui.com/projects/modular-synth-engine](https://balenzategui.com/projects/modular-synth-engine)
 
 ## Screenshot
 
@@ -128,4 +128,4 @@ You're free to use, fork, and modify it for any noncommercial purpose (personal,
 **Javier Balenzategui Garcia**
 [github.com/Javaperwave](https://github.com/Javaperwave)
 
-Portfolio: [PORTFOLIO-URL] *(coming soon)*
+Portfolio: [balenzategui.com/projects/modular-synth-engine](https://balenzategui.com/projects/modular-synth-engine)
